@@ -23,7 +23,7 @@ def download_source():
     request.urlretrieve(remote_url, local_file)
 
 def download_mem_edit():
-    remote_url = 'https://github.com/khenam/memory_hack/mem_edit/archive/refs/heads/master.zip'
+    remote_url = 'https://github.com/primetime00/mem_edit/archive/refs/heads/master.zip'
     # Define the local filename to save data
     local_file = 'medit.zip'
     # Download remote and save locally
