@@ -15,7 +15,7 @@ cwd = Path(os.getcwd())
 zip_dir_name = 'memory_hack-master'
 
 def download_source():
-    remote_url = 'https://github.com/khenam/memory_hack/memory_hack/archive/refs/heads/master.zip'
+    remote_url = 'https://github.com/khenam/memory_hack/archive/refs/heads/master.zip'
     # Define the local filename to save data
     local_file = 'master.zip'
     # Download remote and save locally
