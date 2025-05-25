@@ -26,8 +26,8 @@ if __name__ == '__main__':
     app.add_static_route('/resources/static', pt.joinpath("resources/static/").absolute())
 
     try:
-        with make_server('', 5000, app, handler_class=NoLoggingWSGIRequestHandler) as httpd:
-            print('Serving on port 5000...')
+        with make_server('', 5001, app, handler_class=NoLoggingWSGIRequestHandler) as httpd:
+            print('Serving on port 5001...')
             httpd.serve_forever()
     except KeyboardInterrupt:
         DataStore().kill()
